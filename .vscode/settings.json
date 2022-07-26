@@ -1,0 +1,23 @@
+{
+   "cSpell.words": [
+      "Csrf",
+      "fastify",
+      "Fastify",
+      "isbot",
+      "nestjs",
+      "Parens",
+      "pnpm",
+      "prebuild",
+      "prettierrc",
+      "rubenconde",
+      "URL's",
+      "virtuals",
+      "whatchanged"
+   ],
+   "typescript.preferences.importModuleSpecifier": "non-relative",
+   "conventionalCommits.scopes": [
+      "db",
+      "swagger",
+      "deps"
+   ],
+}
