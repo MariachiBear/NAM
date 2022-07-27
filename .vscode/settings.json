@@ -14,10 +14,5 @@
       "virtuals",
       "whatchanged"
    ],
-   "typescript.preferences.importModuleSpecifier": "non-relative",
-   "conventionalCommits.scopes": [
-      "db",
-      "swagger",
-      "deps"
-   ],
+   "typescript.preferences.importModuleSpecifier": "non-relative"
 }
