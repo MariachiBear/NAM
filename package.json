@@ -21,7 +21,7 @@
       "fastify": "4.3.0",
       "fastify-swagger": "5.2.0",
       "helmet": "^5.1.1",
-      "mongoose": "6.4.7",
+      "mongoose": "6.5.0",
       "passport": "0.6.0",
       "passport-jwt": "4.0.0",
       "passport-local": "1.0.0",
@@ -112,5 +112,5 @@
       "test:watch": "jest --watch",
       "test": "jest"
    },
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
