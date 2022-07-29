@@ -35,19 +35,15 @@ jobs:
 
       - name: Get repository name
         id: repo-name
-        uses: MariachiBear/get-repo-name-action@v1.0.3
-
-      - name: Repository name to lowercase
-        id: lowercase
-        uses: ASzc/change-string-case-action@v2
+        uses: MariachiBear/get-repo-name-action@v1.1.0
         with:
-          string: ${{ steps.repo-name.outputs.repository-name }}
+          string-case: 'lowercase'
 
       - name: Build and Push 
         uses: docker/build-push-action@v3
         env:
           RELEASE_VERSION: ${{ inputs.tag }}
-          REPO_NAME: ${{ steps.lowercase.outputs.lowercase }}
+          REPO_NAME: ${{ steps.repo-name.outputs.repository-name }}
         with:
           context: .
           file: ./Dockerfile
