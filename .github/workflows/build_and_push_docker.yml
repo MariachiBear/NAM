@@ -35,7 +35,7 @@ jobs:
 
       - name: Get repository name
         id: repo-name
-        uses: MariachiBear/get-repo-name-action@v1.0.1
+        uses: MariachiBear/get-repo-name-action@v1.0.3
 
       - name: Build and Push 
         uses: docker/build-push-action@v3
