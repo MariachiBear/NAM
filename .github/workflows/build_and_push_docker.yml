@@ -41,7 +41,7 @@ jobs:
         uses: docker/build-push-action@v3
         env:
           RELEASE_VERSION: ${{ inputs.tag }}
-          REPO_NAME: ${{ steps.repo-name.outputs.name }}
+          REPO_NAME: ${{ steps.repo-name.outputs.repository-name }}
         with:
           context: .
           file: ./Dockerfile
