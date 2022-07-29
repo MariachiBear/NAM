@@ -26,7 +26,7 @@ jobs:
 
   continuous_integration:
     needs: setup
-    uses: mariachibear/cutting-ninja-api/.github/workflows/continuous_integration.yml@master
+    uses: mariachibear/NAM/.github/workflows/continuous_integration.yml@master
     secrets: inherit
 
   docker:
@@ -34,17 +34,9 @@ jobs:
 
     if: needs.setup.outputs.tag != 'deprecated'
 
-    uses: mariachibear/cutting-ninja-api/.github/workflows/build_and_push_docker.yml@master
+    uses: mariachibear/NAM/.github/workflows/build_and_push_docker.yml@master
     with:
       tag: ${{ needs.setup.outputs.tag }}
-    secrets: inherit
-
-  ssh:
-    needs: [setup, continuous_integration, docker]
-
-    if: needs.setup.outputs.tag != 'deprecated'
-
-    uses: mariachibear/cutting-ninja-api/.github/workflows/ssh_deploy.yml@master
     secrets: inherit
 
   develop_branch:
@@ -52,6 +44,6 @@ jobs:
 
     if: needs.setup.outputs.tag != 'deprecated'
 
-    uses: mariachibear/cutting-ninja-api/.github/workflows/rebase_to_master.yml@master
+    uses: mariachibear/NAM/.github/workflows/rebase_to_master.yml@master
     with:
       branch_name: "develop"
