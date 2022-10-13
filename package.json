@@ -21,7 +21,7 @@
       "fastify": "4.8.1",
       "@fastify/swagger": "6.0.0",
       "helmet": "6.0.0",
-      "mongoose": "6.6.1",
+      "mongoose": "6.6.5",
       "passport": "0.6.0",
       "passport-jwt": "4.0.0",
       "passport-local": "1.0.0",
