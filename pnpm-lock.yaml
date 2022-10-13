@@ -40,7 +40,7 @@ specifiers:
   fastify-swagger: 5.2.0
   helmet: 6.0.0
   jest: 29.0.3
-  mongoose: 6.6.1
+  mongoose: 6.6.5
   passport: 0.6.0
   passport-jwt: 4.0.0
   passport-local: 1.0.0
@@ -62,7 +62,7 @@ dependencies:
   '@nestjs/core': 9.1.2_e6ar3fodmgi6dfak6o4ayoeihe
   '@nestjs/jwt': 9.0.0_@nestjs+common@9.1.2
   '@nestjs/mapped-types': 1.2.0_zeb4gyhc74qs6lqbathv6jdp3i
-  '@nestjs/mongoose': 9.2.0_dw6qtoha25ogu7dkd3624v6qiy
+  '@nestjs/mongoose': 9.2.0_pj6rlevbiytdg4lnyv7r2yuqjm
   '@nestjs/passport': 9.0.0_okkunj32hqcrg5gw7tl7a43dqq
   '@nestjs/platform-fastify': 9.1.2_i4tp3onqu6wvmxq7vnpjzu2i3e
   '@nestjs/swagger': 6.1.2_vrofn4mel6ozsyghrwyok735ga
@@ -73,7 +73,7 @@ dependencies:
   fastify: 4.8.1
   fastify-swagger: 5.2.0
   helmet: 6.0.0
-  mongoose: 6.6.1
+  mongoose: 6.6.5
   passport: 0.6.0
   passport-jwt: 4.0.0
   passport-local: 1.0.0
@@ -1126,7 +1126,7 @@ packages:
       reflect-metadata: 0.1.13
     dev: false
 
-  /@nestjs/mongoose/9.2.0_dw6qtoha25ogu7dkd3624v6qiy:
+  /@nestjs/mongoose/9.2.0_pj6rlevbiytdg4lnyv7r2yuqjm:
     resolution: {integrity: sha512-fC33b8nwR7C3y6hlTyKjiHQVU57SFOd3Dwa6alWj3BOhK5bHt8Ld6qOK2G35/XXPHjtSIk3LIKEqwyK5xGcmBA==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0
@@ -1137,7 +1137,7 @@ packages:
     dependencies:
       '@nestjs/common': 9.1.2_x6yqyveuahcdef4z4mxykmuv6a
       '@nestjs/core': 9.1.2_e6ar3fodmgi6dfak6o4ayoeihe
-      mongoose: 6.6.1
+      mongoose: 6.6.5
       reflect-metadata: 0.1.13
       rxjs: 7.5.7
     dev: false
@@ -4784,8 +4784,8 @@ packages:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose/6.6.1:
-    resolution: {integrity: sha512-hPDamnn6quL9TjIrOudqUS5sMilENmP/gfxoCIb+rDmlzawtM7+MVCAWrM9930fzD20N7qAema/zE9QIDuifhQ==}
+  /mongoose/6.6.5:
+    resolution: {integrity: sha512-iA/oDpWOc+K2QYzA4Eq7Z1oUBQOz9FGDmUwPLgw872Bfs/qizA5Db+gJorAn+TnnGu3VoCK8iP4Y+TECUelwjA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       bson: 4.7.0
