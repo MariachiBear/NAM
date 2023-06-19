@@ -5,7 +5,7 @@ specifiers:
   '@fastify/swagger': 8.0.0
   '@nestjs/cli': 9.1.4
   '@nestjs/common': 9.1.4
-  '@nestjs/config': 2.2.0
+  '@nestjs/config': 2.3.4
   '@nestjs/core': 9.1.4
   '@nestjs/jwt': 9.0.0
   '@nestjs/mapped-types': 1.2.0
@@ -59,7 +59,7 @@ dependencies:
   '@fastify/static': 6.5.0
   '@fastify/swagger': 8.0.0
   '@nestjs/common': 9.1.4_x6yqyveuahcdef4z4mxykmuv6a
-  '@nestjs/config': 2.2.0_6fl4rox5ofo3yz2h7ukpny327a
+  '@nestjs/config': 2.3.4_6fl4rox5ofo3yz2h7ukpny327a
   '@nestjs/core': 9.1.4_6fl4rox5ofo3yz2h7ukpny327a
   '@nestjs/jwt': 9.0.0_@nestjs+common@9.1.4
   '@nestjs/mapped-types': 1.2.0_dds7u4gk7gkqdcumnydaxqxvq4
@@ -1038,20 +1038,20 @@ packages:
       tslib: 2.4.0
       uuid: 9.0.0
 
-  /@nestjs/config/2.2.0_6fl4rox5ofo3yz2h7ukpny327a:
-    resolution: {integrity: sha512-78Eg6oMbCy3D/YvqeiGBTOWei1Jwi3f2pSIZcZ1QxY67kYsJzTRTkwRT8Iv30DbK0sGKc1mcloDLD5UXgZAZtg==}
+  /@nestjs/config/2.3.4_6fl4rox5ofo3yz2h7ukpny327a:
+    resolution: {integrity: sha512-IGdSF+0F9MJO6dCRTEahdxPz4iVijjtolcFBxnY+2QYM3bXYQvAgzskGZi+WkAFJN/VzR3TEp60gN5sI74GxPA==}
     peerDependencies:
       '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0
       reflect-metadata: ^0.1.13
       rxjs: ^6.0.0 || ^7.2.0
     dependencies:
       '@nestjs/common': 9.1.4_x6yqyveuahcdef4z4mxykmuv6a
-      dotenv: 16.0.1
-      dotenv-expand: 8.0.3
+      dotenv: 16.1.4
+      dotenv-expand: 10.0.0
       lodash: 4.17.21
       reflect-metadata: 0.1.13
       rxjs: 7.5.7
-      uuid: 8.3.2
+      uuid: 9.0.0
     dev: false
 
   /@nestjs/core/9.1.4_6fl4rox5ofo3yz2h7ukpny327a:
@@ -2594,13 +2594,13 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dotenv-expand/8.0.3:
-    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
+  /dotenv-expand/10.0.0:
+    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
     dev: false
 
-  /dotenv/16.0.1:
-    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
+  /dotenv/16.1.4:
+    resolution: {integrity: sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==}
     engines: {node: '>=12'}
     dev: false
 
@@ -6096,11 +6096,6 @@ packages:
   /utils-merge/1.0.1:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
-    dev: false
-
-  /uuid/8.3.2:
-    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
-    hasBin: true
     dev: false
 
   /uuid/9.0.0:
