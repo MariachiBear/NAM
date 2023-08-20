@@ -33,7 +33,7 @@ import { SwaggerErrorDescriptions } from 'src/config/swagger/error.descriptions.
 import { swaggerErrorResponse } from 'src/config/swagger/error.response.swagger';
 import { SwaggerSuccessDescriptions } from 'src/config/swagger/success.descriptions.swagger';
 import { CreateUserDTO, LoginUserDTO, UpdateUserDTO } from 'src/models/user/dto/user.dto';
-import { UserDocument } from 'src/models/user/schema/user.schema';
+import { User } from 'src/models/user/entity/user.entity';
 import { successUserCollectionResponse } from 'src/models/user/swagger/user.collection.swagger';
 import {
    successUserJWTResourceResponse,
@@ -87,7 +87,7 @@ export class UserController {
       schema: swaggerErrorResponse,
    })
    async store(@Body() userData: CreateUserDTO, @Request() request) {
-      const requestUser: UserDocument | null = request.user;
+      const requestUser: User | null = request.user;
       const user = await this.service.store(userData, requestUser);
       return user;
    }
@@ -108,7 +108,7 @@ export class UserController {
       @Request() request,
    ) {
       const { id } = params;
-      const requestUser: UserDocument = request.user;
+      const requestUser: User = request.user;
       await this.service.update(id, userData, requestUser);
    }
 
@@ -121,16 +121,6 @@ export class UserController {
    async delete(@Param() params: RequestParamsDTO) {
       const { id } = params;
       await this.service.delete(id);
-   }
-
-   @Delete()
-   @UseGuards(JwtAuthGuard, RolesGuard)
-   @EnabledRoles(Roles.ADMIN)
-   @HttpCode(HttpStatus.NO_CONTENT)
-   @ApiBearerAuth()
-   @ApiNoContentResponse({ description: SwaggerSuccessDescriptions.NoContent })
-   async deleteAll() {
-      await this.service.deleteAll();
    }
 
    @Post('sign-in')
@@ -166,7 +156,7 @@ export class UserController {
    })
    @ApiForbiddenResponse()
    async updateMe(@Body() userData: UpdateUserDTO, @Request() request) {
-      const requestUser: UserDocument = request.user;
-      await this.service.update(requestUser._id, userData, requestUser);
+      const requestUser: User = request.user;
+      await this.service.update(requestUser.id, userData, requestUser);
    }
 }

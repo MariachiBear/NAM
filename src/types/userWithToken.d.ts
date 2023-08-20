@@ -1,11 +1,3 @@
-interface UserWithToken {
-   __v?: any;
-   _id?: any;
+interface UserWithToken extends UserFiltered {
    accessToken: string;
-   email: string;
-   firstName: string;
-   id?: any;
-   lastName: string;
-   password: string;
-   role: string;
 }
