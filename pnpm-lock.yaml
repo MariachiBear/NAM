@@ -44,7 +44,7 @@ specifiers:
   passport: 0.6.0
   passport-jwt: 4.0.0
   passport-local: 1.0.0
-  pnpm: 7.13.6
+  pnpm: 7.33.7
   prettier: 2.7.1
   rimraf: 3.0.2
   rxjs: 7.5.7
@@ -103,7 +103,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_hvbqyfstm4urdpm6ffpwfka4e4
   eslint-plugin-react: 7.31.10_eslint@8.25.0
   jest: 29.2.0_pq4lb27wczlmkje7q43vo4whau
-  pnpm: 7.13.6
+  pnpm: 7.33.7
   prettier: 2.7.1
   supertest: 6.3.0
   ts-jest: 29.0.3_lgvxzj4uduf2ax2wmeelh2feoa
@@ -5132,8 +5132,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.13.6:
-    resolution: {integrity: sha512-KIGf//0cojjX3cUL63gvAk8d5t9tg+5h6AxLGyxQwoCPtpsjXafm/auIJyDUUh9RVmcPusJxdiONkgxPnbW1YA==}
+  /pnpm/7.33.7:
+    resolution: {integrity: sha512-ev4kEGQrOcaY30baTOXHIxpczjYGmNafjPj0IlfUCz5D8jEFOwe43oSf1P+/SnH/V7g1E3d3o1I4jz09p0cgDg==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
