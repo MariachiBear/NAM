@@ -12,7 +12,7 @@
       "@nestjs/mapped-types": "1.2.0",
       "@nestjs/mongoose": "9.2.0",
       "@nestjs/passport": "9.0.0",
-      "@nestjs/platform-fastify": "9.1.4",
+      "@nestjs/platform-fastify": "11.1.24",
       "@nestjs/swagger": "6.1.2",
       "@nestjs/throttler": "3.1.0",
       "bcryptjs": "2.4.3",
