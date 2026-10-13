@@ -16,7 +16,7 @@ specifiers:
   '@nestjs/swagger': 6.1.2
   '@nestjs/testing': 9.1.4
   '@nestjs/throttler': 3.1.0
-  '@types/bcryptjs': 2.4.2
+  '@types/bcryptjs': 2.4.6
   '@types/jest': 29.1.2
   '@types/node': 18.6.1
   '@types/passport': 1.0.11
@@ -84,7 +84,7 @@ devDependencies:
   '@nestjs/cli': 9.1.4
   '@nestjs/schematics': 9.0.3_typescript@4.8.4
   '@nestjs/testing': 9.1.4_osbqhc5bxkxr7p4xaw5wgzf7bi
-  '@types/bcryptjs': 2.4.2
+  '@types/bcryptjs': 2.4.6
   '@types/jest': 29.1.2
   '@types/node': 18.6.1
   '@types/passport': 1.0.11
@@ -1377,8 +1377,8 @@ packages:
       '@babel/types': 7.19.4
     dev: true
 
-  /@types/bcryptjs/2.4.2:
-    resolution: {integrity: sha512-LiMQ6EOPob/4yUL66SZzu6Yh77cbzJFYll+ZfaPiPPFswtIlA/Fs1MzdKYA7JApHU49zQTbJGX3PDmCpIdDBRQ==}
+  /@types/bcryptjs/2.4.6:
+    resolution: {integrity: sha512-9xlo6R2qDs5uixm0bcIqCeMCE6HiQsIyel9KQySStiyqNl2tnj2mP3DX1Nf56MD6KMenNNlBBsy3LJ7gUEQPXQ==}
     dev: true
 
   /@types/body-parser/1.19.2:
